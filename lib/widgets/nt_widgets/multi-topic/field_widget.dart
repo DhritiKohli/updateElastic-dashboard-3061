@@ -10,15 +10,15 @@ import 'package:provider/provider.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:vector_math/vector_math_64.dart' show radians;
 
-import 'package:elastic_dashboard/services/field_images.dart';
-import 'package:elastic_dashboard/services/nt4_client.dart';
-import 'package:elastic_dashboard/services/struct_schemas/pose2d_struct.dart';
-import 'package:elastic_dashboard/services/text_formatter_builder.dart';
-import 'package:elastic_dashboard/widgets/dialog_widgets/dialog_color_picker.dart';
-import 'package:elastic_dashboard/widgets/dialog_widgets/dialog_dropdown_chooser.dart';
-import 'package:elastic_dashboard/widgets/dialog_widgets/dialog_text_input.dart';
-import 'package:elastic_dashboard/widgets/dialog_widgets/dialog_toggle_switch.dart';
-import 'package:elastic_dashboard/widgets/nt_widgets/nt_widget.dart';
+import 'package:elastic_dashboard_3061/services/field_images.dart';
+import 'package:elastic_dashboard_3061/services/nt4_client.dart';
+import 'package:elastic_dashboard_3061/services/struct_schemas/pose2d_struct.dart';
+import 'package:elastic_dashboard_3061/services/text_formatter_builder.dart';
+import 'package:elastic_dashboard_3061/widgets/dialog_widgets/dialog_color_picker.dart';
+import 'package:elastic_dashboard_3061/widgets/dialog_widgets/dialog_dropdown_chooser.dart';
+import 'package:elastic_dashboard_3061/widgets/dialog_widgets/dialog_text_input.dart';
+import 'package:elastic_dashboard_3061/widgets/dialog_widgets/dialog_toggle_switch.dart';
+import 'package:elastic_dashboard_3061/widgets/nt_widgets/nt_widget.dart';
 
 extension _SizeUtils on Size {
   Offset get toOffset => Offset(width, height);

@@ -13,7 +13,7 @@ import 'package:messagepack/messagepack.dart';
 import 'package:msgpack_dart/msgpack_dart.dart';
 import 'package:web_socket_channel/web_socket_channel.dart';
 
-import 'package:elastic_dashboard/services/log.dart';
+import 'package:elastic_dashboard_3061/services/log.dart';
 
 class NT4TypeStr {
   static final Map<String, int> typeMap = {

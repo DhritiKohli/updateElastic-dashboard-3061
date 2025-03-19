@@ -13,13 +13,13 @@ import 'package:screen_retriever/screen_retriever.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:window_manager/window_manager.dart';
 
-import 'package:elastic_dashboard/pages/dashboard_page.dart';
-import 'package:elastic_dashboard/services/app_distributor.dart';
-import 'package:elastic_dashboard/services/field_images.dart';
-import 'package:elastic_dashboard/services/log.dart';
-import 'package:elastic_dashboard/services/nt_connection.dart';
-import 'package:elastic_dashboard/services/nt_widget_builder.dart';
-import 'package:elastic_dashboard/services/settings.dart';
+import 'package:elastic_dashboard_3061/pages/dashboard_page.dart';
+import 'package:elastic_dashboard_3061/services/app_distributor.dart';
+import 'package:elastic_dashboard_3061/services/field_images.dart';
+import 'package:elastic_dashboard_3061/services/log.dart';
+import 'package:elastic_dashboard_3061/services/nt_connection.dart';
+import 'package:elastic_dashboard_3061/services/nt_widget_builder.dart';
+import 'package:elastic_dashboard_3061/services/settings.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

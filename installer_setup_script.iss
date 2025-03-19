@@ -2,9 +2,9 @@
 #define MyAppFolderName "FRC Elastic"
 #define MyAppPublisher "Gold87"
 #define MyAppURL "https://github.com/gold872/elastic-dashboard/"
-#define MyAppExeName "elastic_dashboard.exe"
-#define AppVersionName GetStringFileInfo('build\windows\x64\runner\Release\elastic_dashboard.exe', 'ProductVersion')
-#define ApplicationVersion GetVersionNumbersString('build\windows\x64\runner\Release\elastic_dashboard.exe')
+#define MyAppExeName "elastic_dashboard_3061.exe"
+#define AppVersionName GetStringFileInfo('build\windows\x64\runner\Release\elastic_dashboard_3061.exe', 'ProductVersion')
+#define ApplicationVersion GetVersionNumbersString('build\windows\x64\runner\Release\elastic_dashboard_3061.exe')
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.

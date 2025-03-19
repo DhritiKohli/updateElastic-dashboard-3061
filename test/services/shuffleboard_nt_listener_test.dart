@@ -4,9 +4,9 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'package:elastic_dashboard/services/nt4_client.dart';
-import 'package:elastic_dashboard/services/settings.dart';
-import 'package:elastic_dashboard/services/shuffleboard_nt_listener.dart';
+import 'package:elastic_dashboard_3061/services/nt4_client.dart';
+import 'package:elastic_dashboard_3061/services/settings.dart';
+import 'package:elastic_dashboard_3061/services/shuffleboard_nt_listener.dart';
 import '../test_util.dart';
 import '../test_util.mocks.dart';
 

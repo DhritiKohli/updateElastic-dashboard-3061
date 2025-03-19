@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_box_transform/flutter_box_transform.dart';
 import 'package:provider/provider.dart';
 
-import 'package:elastic_dashboard/services/settings.dart';
+import 'package:elastic_dashboard_3061/services/settings.dart';
 import 'models/widget_container_model.dart';
 
 typedef DraggableContainerUpdateFunctions = ({

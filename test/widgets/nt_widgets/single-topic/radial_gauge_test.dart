@@ -5,15 +5,15 @@ import 'package:geekyants_flutter_gauges/geekyants_flutter_gauges.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'package:elastic_dashboard/services/nt4_client.dart';
-import 'package:elastic_dashboard/services/nt_connection.dart';
-import 'package:elastic_dashboard/services/nt_widget_builder.dart';
-import 'package:elastic_dashboard/widgets/dialog_widgets/dialog_text_input.dart';
-import 'package:elastic_dashboard/widgets/dialog_widgets/dialog_toggle_switch.dart';
-import 'package:elastic_dashboard/widgets/draggable_containers/draggable_nt_widget_container.dart';
-import 'package:elastic_dashboard/widgets/draggable_containers/models/nt_widget_container_model.dart';
-import 'package:elastic_dashboard/widgets/nt_widgets/nt_widget.dart';
-import 'package:elastic_dashboard/widgets/nt_widgets/single_topic/radial_gauge.dart';
+import 'package:elastic_dashboard_3061/services/nt4_client.dart';
+import 'package:elastic_dashboard_3061/services/nt_connection.dart';
+import 'package:elastic_dashboard_3061/services/nt_widget_builder.dart';
+import 'package:elastic_dashboard_3061/widgets/dialog_widgets/dialog_text_input.dart';
+import 'package:elastic_dashboard_3061/widgets/dialog_widgets/dialog_toggle_switch.dart';
+import 'package:elastic_dashboard_3061/widgets/draggable_containers/draggable_nt_widget_container.dart';
+import 'package:elastic_dashboard_3061/widgets/draggable_containers/models/nt_widget_container_model.dart';
+import 'package:elastic_dashboard_3061/widgets/nt_widgets/nt_widget.dart';
+import 'package:elastic_dashboard_3061/widgets/nt_widgets/single_topic/radial_gauge.dart';
 import '../../../test_util.dart';
 
 void main() {

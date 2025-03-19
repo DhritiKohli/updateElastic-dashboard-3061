@@ -5,12 +5,12 @@ import 'package:dot_cast/dot_cast.dart';
 import 'package:geekyants_flutter_gauges/geekyants_flutter_gauges.dart';
 import 'package:provider/provider.dart';
 
-import 'package:elastic_dashboard/services/nt4_client.dart';
-import 'package:elastic_dashboard/services/text_formatter_builder.dart';
-import 'package:elastic_dashboard/widgets/dialog_widgets/dialog_dropdown_chooser.dart';
-import 'package:elastic_dashboard/widgets/dialog_widgets/dialog_text_input.dart';
-import 'package:elastic_dashboard/widgets/dialog_widgets/dialog_toggle_switch.dart';
-import 'package:elastic_dashboard/widgets/nt_widgets/nt_widget.dart';
+import 'package:elastic_dashboard_3061/services/nt4_client.dart';
+import 'package:elastic_dashboard_3061/services/text_formatter_builder.dart';
+import 'package:elastic_dashboard_3061/widgets/dialog_widgets/dialog_dropdown_chooser.dart';
+import 'package:elastic_dashboard_3061/widgets/dialog_widgets/dialog_text_input.dart';
+import 'package:elastic_dashboard_3061/widgets/dialog_widgets/dialog_toggle_switch.dart';
+import 'package:elastic_dashboard_3061/widgets/nt_widgets/nt_widget.dart';
 
 class VoltageViewModel extends SingleTopicNTWidgetModel {
   @override

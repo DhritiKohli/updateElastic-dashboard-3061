@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:titlebar_buttons/titlebar_buttons.dart';
 import 'package:window_manager/window_manager.dart';
 
-import 'package:elastic_dashboard/services/settings.dart';
+import 'package:elastic_dashboard_3061/services/settings.dart';
 
 /// Essentially a copy of Flutter's [AppBar] but with a non-fixed leading
 /// width and all non-necessary features removed for copying simplicity
