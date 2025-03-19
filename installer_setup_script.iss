@@ -1,5 +1,5 @@
-#define MyAppName "Elastic"
-#define MyAppFolderName "FRC Elastic"
+#define MyAppName "Elastic 3061"
+#define MyAppFolderName "FRC Elastic 3061"
 #define MyAppPublisher "Gold87"
 #define MyAppURL "https://github.com/gold872/elastic-dashboard/"
 #define MyAppExeName "elastic_dashboard_3061.exe"
