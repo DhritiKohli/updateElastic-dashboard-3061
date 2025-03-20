@@ -38,7 +38,6 @@ void main() async {
   final String appFolderPath = (await getApplicationSupportDirectory()).path;
 
   // Prevents data loss if shared_preferences.json gets corrupted
-  // More info and original implementation: https://github.com/flutter/flutter/issues/89211#issuecomment-915096452
   SharedPreferences preferences;
   try {
     preferences = await SharedPreferences.getInstance();
@@ -174,8 +173,6 @@ Future<void> _restorePreferencesFromBackup(String appFolderPath) async {
     await File(original).delete(recursive: true);
 
     if (await File(backup).exists()) {
-      // Check if current backup copy is not broken by looking for letters and "
-      // symbol in it to replace it as an original Settings file
       final String preferences = await File(backup).readAsString();
       if (preferences.contains('"') && preferences.contains(RegExp('[A-z]'))) {
         logger.info('Restoring shared_preferences from backup file at $backup');

@@ -123,7 +123,7 @@ Win32Window::~Win32Window() {
 bool Win32Window::Create(const std::wstring& title,
                          const Point& origin,
                          const Size& size) {
-  HANDLE hMutexHandle=CreateMutex(NULL, TRUE, L"elastic.single.instance.mutex");
+  HANDLE hMutexHandle=CreateMutex(NULL, TRUE, L"elastic3061.single.instance.mutex");
   HWND handle=FindWindowA(NULL, "elastic_dashboard_3061");
 
   if (GetLastError() == ERROR_ALREADY_EXISTS) {
